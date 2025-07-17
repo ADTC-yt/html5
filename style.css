@@ -2,3 +2,25 @@
             --main-bg-color: beige;
             --text-color: black;
         }
+#first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 24px;
+}
+#container{
+        padding-top: 30px;
+        text-align: right
+}
+#menu-items{
+    padding-right: 10px;
+}
+.container{
+    word-spacing: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
