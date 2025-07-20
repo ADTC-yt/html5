@@ -9,7 +9,7 @@
 <body>
     <header class="navbar">
         <div class="logo">
-            <img src="logo.png" alt="logo image" style="width: 50px; height: 50px;">
+            <img src="./assets/images/logo.png" alt="logo image" style="width: 50px; height: 50px;">
         </div>
         <nav>
             <ul class="nav-links">
@@ -26,14 +26,44 @@
     <div class="page-container">
         <aside class="sidebar">
             <h2>Expert In</h2>
+            <br>
             <ul>
-                <li>Web Development</li>
-                <li>Software Development</li>
-                <li>Embedded Systems</li>
-                <li>Robotics</li>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">Software Development</a></li>
+                <li><a href="#">Embedded Systems</a></li>
+                <li><a href="#">Robotics</a></li>
             </ul>
         </aside>
+        <main class="main-content">
+            <section class="overview">
+                <div class="features">
+                    <h3>Beginner</h3>
+                    <p>I am beginner for the youtube stream and channel</p>
+                </div>
+                <div class="features">
+                    <h3>Intermediate</h3>
+                    <p>Intermediate for the working and understanding of tech</p>
+                </div>
+                <div class="features">
+                    <h3>Advance</h3>
+                    <p>For teaching and sharing experience in the field</p>
+                </div>
+            </section>
+            <section class="gallery">
+                <h2>Image Gallery</h2>
+                <br>
+                <div class="gallery-grid">
+                    <img src="https://alvarotrigo.com/blog/assets/imgs/2021-10-16/dvlpr-front-end-portfolio-example.jpeg" alt="image 1">
+                    <img src="./assets/images/image2.png" alt="image 2">
+                    <img src="./assets/images/image3.png" alt="image 3">
+                </div>
+            </section>
+        </main>
     </div>
-    
+    <button id="button">Click Me</button>
+    <footer class="footer">
+        <p>This is our demo project for live</p>
+    </footer>
 </body>
 </html>
+<script src="index.js"></script>
